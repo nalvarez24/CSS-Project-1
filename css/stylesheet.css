@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: gray;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+.image-container {
+    position: relative;
+    top: 10px;
+    left: 370px;
+  }
+
+.image-container img {
+    width: 750px;
+    height: 500px;
+  }
+
+body {
+
+  background-color: rgb(230, 230, 230);
+
+}
+
+div {
+  font-size: 20px;
+  align-items: center;
+}
+
+.image-container2 {
+  position: relative;
+  top: 10px;
+  left: 570px;
+}
+
+.image-container2 img {
+  width: 300px;
+  height: 200px;
+}
+
+body {
+  background-color:white;
+}
+
+div {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:burlywood;
+}
+
+ul {
+  list-style-type: none;
+  size: 400%;
+}
+
+.image-container3 {
+  position: relative;
+  top: 10px;
+  left: 570px;
+  scale: 1000%;
+}
+
+body {
+  background-color: #F8F8F8;
+}
+
+h1, h2, h3 {
+  color: burlywood;
+  text-shadow: 1px 1px #C0C0C0;
+}
+
+.highlight {
+  background-color: #FFC107;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px #888888;
+}
+
+a:link, a:visited {
+  color:black;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover, a:active {
+  color: burlywood;
+  text-decoration: underline;
+}
+
+img {
+  border: 1px solid burlywood;
+  border-radius: 10px;
+  box-shadow: 2px 2px #888888;
+}
+
+ul a {
+  color:gray;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+ul a:hover {
+  background-color: burlywood;
+  color: black;
+}
+
+.images-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.images-container img {
+  width: 20%;
+  height: auto;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px gray;
+}
